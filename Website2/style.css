@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+body{
+    border: 1px solid black;
+    width: 100%; 
+    height: 100%; 
+            
+
+    
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 17vh;
+    background-color: lightslategrey;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+.logo p{
+    font-family: 'Yellowtail', cursive;
+    color: rgb(226, 226, 226);
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;   
+}
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links ul{  
+}
+.nav-bocks{
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    letter-spacing: 3px;
+    font-size: 20px;
+    transition: 0.2s;
+    
+    
+}
+
+.nav-links a:hover{
+    color: darkslategrey;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    
+    
+}
+
+
+
+
+#image img{
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    
+}
+
+.unterBild{
+    margin-bottom: 100px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; 
+}
+.Überschrift{
+    color: darkslategrey;
+    margin-bottom: 28px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.Überschrift:hover{
+    letter-spacing: 10px;
+    transition: 0.7s;
+}
+.text{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.sociallinks ul{
+    
+    left: 36%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.sociallinks ul li{
+    list-style: none;
+    margin: 0 15px;
+    align-items: center;
+}
+.sociallinks ul li .fa{
+    
+    font-size: 30px;
+    color: cadetblue;
+    line-height: 60px;
+}
+
+.sociallinks ul li a{
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.sociallinks ul li a:hover{
+    background-color: gainsboro;
+}
+
+
+
+
+
+.footer{
+    text-align: center;
+    background-color: lightslategrey;
+    min-height: 70px;
+   
+}
+.footer p{
+    color: rgb(226, 226, 226);
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif; 
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
